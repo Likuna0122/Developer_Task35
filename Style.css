@@ -1,0 +1,369 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Sregular;
+    src: url(DMSans-Regular.ttf);
+}
+@font-face {
+    font-family: NSregular;
+    src: url(NotoSans-Regular.ttf);
+}
+
+.spancollosal{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFF;
+    font-family: Sregular;
+}
+
+.a1{
+    font-weight: 300;
+    font-size: 16px;
+    font-family: NSregular;
+}
+
+.a_contact{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: notosans-regular;
+}
+
+.but1{
+    width: 112px;
+    height: 39px;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.two{
+    margin-top: 110px;
+}
+
+.five{
+    margin-top: 90px;
+}
+
+.p_cl, .p_how, .p_team, .p_project, .h_getstart, .h_test{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 10%;
+    font-family: NSregular;
+    color: rgba(22, 252, 210, 1);
+}
+
+.p_des, .p_every, .p_designer, .p_completed, .p_client2{
+    font-weight: 700;
+    font-size: 36px;
+    font-family: NSregular;
+}
+
+.p_com, .p_care, .p_crea, {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: NSregular;
+    color: rgba(255, 255, 255, 0.6) !important
+}
+
+.p_every, .p_designers, .p_completed, .p_service, .p_client2{
+    font-size: 25px !important;
+}
+
+.but2, .but3{
+    width: 202px;
+    height: 52px;
+    border: none;
+    background-color: rgba(96, 22, 252, 1);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: NSregular;
+}
+.but3{
+    width: 200px !important;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.card{
+    margin-top: 101px;
+    background: var(--light, rgba(255, 255, 255, 0.05)) !important;
+}
+
+.CB_0{
+    width: 328px;
+    height: 276px;
+    margin-top: 32px;
+}
+
+.p_1{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: NSregular;
+}
+
+.p_2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: NSregular;
+}
+
+.line{
+    Width: 1024px
+    Height:1px
+    color:rgba(255, 255, 255, 0.1)
+}
+
+.tree{
+    margin-top: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.10) !important;
+}
+
+.six{
+    margin-top: 220px;
+}
+
+.seven{
+    margin-top: 130px;
+}
+
+.but4{
+    margin-top: 48px;
+    width: 196px;
+    height: 52px;
+    border-radius: 3px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: NSregular;
+}
+
+.line1{
+    margin-top: 110px;
+    Width: 1100px;
+    Height:1px;
+    color:rgba(255, 255, 255, 0.1);
+    margin-left: 170px;   
+}
+
+.eight{
+    margin-top: 118px;
+}
+.cb1{
+    width: 502px;
+    height: 441px;
+}
+.project_card2{
+    width: 502px;
+    height: 441px;
+}
+.rec_1{
+    width: 154px;
+    height: 26px;
+    background: hsla(240, 24%, 17%, 1) !important;
+}
+.rec_2{
+    width: 94px;
+    height: 26px;
+    background: hsla(240, 24%, 17%, 1) !important;
+}
+.rec_3{
+    margin-top: 66px;
+    width: 194px;
+    height: 256px;
+    background: hsla(240, 24%, 17%, 1) !important;
+}
+.rec_4{
+    margin-top: 66px;
+    width: 368px;
+    height: 256px;
+    background: hsla(240, 24%, 17%, 1) !important;
+}
+
+.p_mobile{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: NSregular;
+}
+.p_mobile2{
+    font-weight: 400;
+    font-size: 16px;
+    color: hsla(0, 0%, 100%, 0.6) !important;
+    font-family: NSregular;
+}
+.btn1{
+    width: 100px;
+    height: 39px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 1) !important;
+    font-family: NSregular;
+}
+.texts{
+    margin-bottom: 70px;
+}
+.card_n1{
+    margin-top: 110px;
+    height: 911px;
+    border-radius: 30px;
+    background: var(--highlight, #221048);
+    padding-top: 90px;
+    margin-bottom: 120px;
+}
+
+.cb_1, .cb_2, .cb_3{
+    height: 490px;
+    border-radius: 10px;
+    background: #3F2379;
+    padding-top: 58px;
+}
+.cb_2{
+    background: #233679;
+}
+.cb_3{
+    background: #792366;
+}
+.p_ui{
+    color: #FFF;
+    font-size: 16px;
+    font-family: NSregular;
+    font-weight: 700;
+    padding-top: 58px;
+}
+.p_starting{
+    color: var(--muted, rgba(255, 255, 255, 0.60));
+    font-size: 12px;
+    font-weight: 400;
+    font-family: NSregular;
+    padding-top: 58px;
+}
+
+.p_price{
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: notosans-regular;
+}
+
+.border1{
+    border: 1px solid rgba(255, 255, 255, 0.05);;
+}
+.p_texts{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-family: notosans-regular;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.but5{
+    width: 234px;
+    height: 52px;
+    border: none;
+    border-radius: 3px;
+}
+
+.CB_4, .CB_4_1{
+    margin-top: 136px;
+    height: 447px;
+    border-radius: 3px;
+    background: var(--light, rgba(255, 255, 255, 0.05));
+    margin-bottom: 30px;
+}
+.CB_4_1{
+    border: 2px solid var(--primary, #6016FC) !important;
+    margin-top: 90px;
+}
+.avatar1{
+    margin-top: 61px;
+}
+
+.name{
+    color: #FFF;
+    font-size: 18px;
+    font-family: NSregular;
+    font-weight: 700;
+}
+
+.text1{
+    font-size: 14px;
+    font-family: NSregular;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+}
+.text2{
+    font-size: 16px;
+    font-family: NSregular;
+    font-weight: 500;
+    color: var(--muted, rgba(255, 255, 255, 0.60));
+}
+
+.but6, .butt7{
+    font-weight: 600;
+    font-size: 16px;
+    color: hsla(0, 0%, 100%, 1);
+    font-family: notosans-regular;
+}
+
+.but6{
+    width: 202px;
+    height: 52px;
+    border-radius: 3px;
+    border: none;
+    background: hsla(259, 97%, 54%, 1);
+}
+.but7{
+    width: 162px;
+    height: 52px;
+    border-radius: 3px;
+    border: none;
+    background: hsla(0, 0%, 100%, 0.1);
+}
+
+.p_prepared{
+    color: #FFF;
+    font-size: 30px;
+    font-family: NSregular;
+    font-weight: 600;
+}
+
+
+.cont{
+    margin-top: 150px;
+    border: 1px solid rgba(255, 255, 255, 0.10) !important;
+}
+.confooter{
+    margin-top: 100px;
+    margin-bottom: 65px;
+}
+.h_1{
+    color: #FFF;
+    font-size: 14px;
+    font-family: NSregular;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+}
+.a_7{
+    color: var(--muted, rgba(255, 255, 255, 0.60));
+    font-size: 16px;
+    font-family: NSregular;
+    font-weight: 400;
+    line-height: 38px;
+    text-decoration: none;
+}
+
